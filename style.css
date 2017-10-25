@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: black;
+}
+
+div.navbar {
+  height: 20%;
+  width: 100%;
+  display: inline;
+  border-bottom: 1px black dotted;
+}
+
+#lg.logo {
+  float: left;
+}
+
+h1#nav1 {
+  display: inline;
+  font-family:
+  text: 20px;
+}
+
+h1#nav2 {
+  font-family:
+  text: 10px;
+}
+
+.icons {
+  display: inline;
+  float: right;
+}
