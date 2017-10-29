@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: black;
+
+}
+
+#body {
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
+#lg.logo {
+  margin-top: 40px;
+}
+
+#navbar {
+  width: 900px;
+  height: 50px;
+  display: inline-flex;
+  margin-top: 0;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 60px;
+}
+
+#top {
+  font-family: Yellowtail;
+  font-size: 20px;
+  padding-right: 600px;
+  width: 600px;
+  margin: 0;
+}
+
+#bottom {
+  font-family: Jockey+One;
+  font-size: 10px;
+  color: gray;
+  padding-right: 700px
+  margin-top: 10px;
+}
+
+.icons {
+  display: inline;
+  float: right;
+  height: 20px;
+  width: 20px;
+  margin-right: 2px;
+  margin-top: 10px;
+}
+
+#rssicon {
+  margin-left: 8px;
+}
+
+hr {
+  margin-top: 20px;
+  height: 8px;
+  /*background: repeating-linear-gradient (45deg gray 1px);*/
+  background-color: gray;
+}
+
+h1 {
+  font-family: Jockey One;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: Jocky One;
+  font-size: 10px;
+  color: gray;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#print {
+  margin-left: 670px;
+}
+
+p {
+  font-family: "Crimson Text";
+  color: gray;
+  font-size: 14px;
+}
+
+#recipe {
+  background-image: url(images/list-bg.png);
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  height: 300px;
+  width: 100%;
+  columns: 2;
+}
+
+.ingredients {
+  font-family: Patrick Hand;
+  font-size: 20px;
+}
+
+#author {
+  margin-top: 20px;
+  display: inline-flex;
+  width: 100%;
+}
+
+#name {
+  font-family: Jocky One;
+  font-size: 20px;
+}
+
+#bio {
+  font-family: Jocky One;
+  font-size: 14px;
+  margin-right: 150px
+}
+
+button {
+    background-color: #d68279;
+    color: white;
+    height: 50px;
+    width: 180px;
+    margin-top: 15px;
+    margin-bottom: 15px
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer {
+  font-family: Jocky One;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
